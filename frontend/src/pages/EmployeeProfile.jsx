@@ -25,7 +25,7 @@ function EmployeeProfile() {
     try {
 
       const response = await axios.get(
-        `https://goodibaddi-backend.onrender.com/api/employees/${id}`,
+        `https://goodibaddi.onrender.com/api/employees/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -48,7 +48,7 @@ function EmployeeProfile() {
     try {
 
       const response = await axios.get(
-        `https://goodibaddi-backend.onrender.com/api/feedback/${id}`,
+        `https://goodibaddi.onrender.com/api/feedback/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

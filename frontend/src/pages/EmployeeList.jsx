@@ -28,7 +28,7 @@ function EmployeeList() {
         try {
 
             const response = await axios.get(
-                "https://goodibaddi-backend.onrender.com/api/employees",
+                "https://goodibaddi.onrender.com/api/employees",
                 {
                     headers: {
                         Authorization: `Bearer ${token}`
@@ -62,7 +62,7 @@ function EmployeeList() {
 
             await axios.delete(
 
-                `https://goodibaddi-backend.onrender.com/api/employees/delete/${id}`,
+                `https://goodibaddi.onrender.com/api/employees/delete/${id}`,
 
                 {
                     headers: {

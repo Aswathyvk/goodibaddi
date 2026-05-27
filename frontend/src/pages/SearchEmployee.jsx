@@ -14,7 +14,7 @@ function SearchEmployee() {
     try {
 
       const response = await axios.get(
-        `https://goodibaddi-backend.onrender.com/api/employees/search?name=${search}`,
+        `https://goodibaddi.onrender.com/api/employees/search?name=${search}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

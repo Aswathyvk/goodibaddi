@@ -46,7 +46,7 @@ function AddEmployee() {
 
       const response = await axios.post(
 
-        "https://goodibaddi-backend.onrender.com/api/employees/add",
+        "https://goodibaddi.onrender.com/api/employees/add",
 
         formData,
 

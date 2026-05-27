@@ -34,7 +34,7 @@ function Dashboard() {
 
       const response = await axios.get(
 
-        "https://goodibaddi-backend.onrender.com/api/employees/stats",
+        "https://goodibaddi.onrender.com/api/employees/stats",
 
         {
           headers: {
