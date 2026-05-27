@@ -25,13 +25,7 @@ function EmployeeProfile() {
     try {
 
       const response = await axios.get(
-<<<<<<< HEAD
-
         `https://goodibaddi-backend.onrender.com/api/employees/${id}`,
-
-=======
-        `http://localhost:5000/api/employees/${id}`,
->>>>>>> 3de6a74b (Improve employee profile UI and feedback history design)
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -54,13 +48,7 @@ function EmployeeProfile() {
     try {
 
       const response = await axios.get(
-<<<<<<< HEAD
-
         `https://goodibaddi-backend.onrender.com/api/feedback/${id}`,
-
-=======
-        `'https://goodibaddi-backend.onrender.com/api/employees/${id}'/feedback/${id}`,
->>>>>>> 3de6a74b (Improve employee profile UI and feedback history design)
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -111,8 +99,6 @@ function EmployeeProfile() {
           margin: "auto",
         }}
       >
-
-        {/* Profile Card */}
 
         <div
           style={{
@@ -192,8 +178,6 @@ function EmployeeProfile() {
             }}
           >
 
-            {/* Avatar */}
-
             <div
               style={{
                 width: "80px",
@@ -243,8 +227,6 @@ function EmployeeProfile() {
           </div>
 
         </div>
-
-        {/* Feedback Section */}
 
         <div
           style={{

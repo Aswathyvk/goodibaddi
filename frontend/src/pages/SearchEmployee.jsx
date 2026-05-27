@@ -14,13 +14,7 @@ function SearchEmployee() {
     try {
 
       const response = await axios.get(
-<<<<<<< HEAD
-
         `https://goodibaddi-backend.onrender.com/api/employees/search?name=${search}`,
-
-=======
-        `http://localhost:5000/api/employees/search?name=${search}`,
->>>>>>> 3de6a74b (Improve employee profile UI and feedback history design)
         {
           headers: {
             Authorization: `Bearer ${token}`,
