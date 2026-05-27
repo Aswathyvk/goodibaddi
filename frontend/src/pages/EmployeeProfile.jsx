@@ -30,7 +30,7 @@ function EmployeeProfile() {
 
       const response = await axios.get(
 
-        `http://localhost:5000/api/employees/${id}`,
+        `https://goodibaddi-backend.onrender.com/api/employees/${id}`,
 
         {
           headers: {
@@ -59,7 +59,7 @@ function EmployeeProfile() {
 
       const response = await axios.get(
 
-        `http://localhost:5000/api/feedback/${id}`,
+        `https://goodibaddi-backend.onrender.com/api/feedback/${id}`,
 
         {
           headers: {

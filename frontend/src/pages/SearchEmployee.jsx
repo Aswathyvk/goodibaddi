@@ -17,7 +17,7 @@ function SearchEmployee() {
 
       const response = await axios.get(
 
-        `http://localhost:5000/api/employees/search?name=${search}`,
+        `https://goodibaddi-backend.onrender.com/api/employees/search?name=${search}`,
 
         {
           headers: {

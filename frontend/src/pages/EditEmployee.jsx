@@ -42,7 +42,7 @@ function EditEmployee() {
 
       const response = await axios.get(
 
-        "http://localhost:5000/api/employees",
+        "https://goodibaddi-backend.onrender.com/api/employees",
 
         {
           headers: {
@@ -117,7 +117,7 @@ function EditEmployee() {
 
       await axios.put(
 
-        `http://localhost:5000/api/employees/update/${id}`,
+        `https://goodibaddi-backend.onrender.com/api/employees/update/${id}`,
 
         formData,
 

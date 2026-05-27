@@ -41,7 +41,7 @@ function AddFeedback() {
 
       const response = await axios.post(
 
-        "http://localhost:5000/api/feedback/add",
+        "https://goodibaddi-backend.onrender.com/api/feedback/add",
 
         {
 
