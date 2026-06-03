@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API="http://localhost:5000/api/auth";
+const API="https://goodibaddi.onrender.com/api/auth";
 
 export const signup=(data)=>{
     return axios.post(
